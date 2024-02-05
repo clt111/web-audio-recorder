@@ -5,7 +5,7 @@
   "main": "dist/main.js",
   "scripts": {
     "build": "webpack --mode=production",
-    "test": "webpack-dev-server --mode=development --config webpack.dev.js",
+    "dev": "webpack-dev-server --mode=development --config webpack.dev.js",
     "demo": "webpack --mode=production -c webpack.dev.js"
   },
   "files": [
@@ -18,6 +18,10 @@
   ],
   "author": "mouche",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:clt111/web-audio-recorder.git"
+  },
   "devDependencies": {
     "@babel/preset-typescript": "^7.23.3",
     "webpack": "^5.90.1",
