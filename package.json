@@ -1,6 +1,6 @@
 {
   "name": "web-audio-recorder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Web端音频录制",
   "main": "dist/main.js",
   "scripts": {
